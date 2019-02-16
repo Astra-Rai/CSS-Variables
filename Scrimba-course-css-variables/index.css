@@ -1,14 +1,25 @@
 
+
+
+:root{
+	--red: #ff66f9;
+}
+
+
 html, body {
 
    	background: #ffeead;
-   	color: #ff6f69;
+   	color: var(--red);
 
+}
+
+h1, p {
+	color: var(--red);
 }
 
 
 #navbar a {
-    color: #ff6f69;
+    color: var(--red); 
 
 }
 
@@ -18,7 +29,7 @@ html, body {
 }
 
 button {
-    background: #ff6f69;
+    background: var(--red);
     color: #ffcc5c;
 
 }

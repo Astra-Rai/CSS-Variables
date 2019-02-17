@@ -2,13 +2,15 @@
 
 
 :root{
-	--red: #ff66f9;
+	--red: #ff6f69;
+	--beige: #ffeead;
+
 }
 
 
 html, body {
 
-   	background: #ffeead;
+   	background: var(--beige);
    	color: var(--red);
 
 }

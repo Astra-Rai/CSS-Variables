@@ -1,52 +1,28 @@
-
-
-
-:root{
-	--red: #ff6f69;
-	--beige: #ffeead;
-	--yellow: #ffcc5c;
-
+:root {
+    --red: #ff6f69;
+    --beige: #ffeead;
+    --yellow: #ffcc5c;
 }
 
-
 html, body {
-
-   	background: var(--beige);
-   	color: var(--red);
-
+    background: var(--beige);
+    color: var(--red);
 }
 
 h1, p {
-	color: var(--red);
+    color: var(--red);
 }
-
-#navbar {
-	--nav-red: #ff6f19;
-}
-
 
 #navbar a {
-    color: var(--nav-red); 
-
+    color: var(--red);
 }
 
 .item {
-	--red: #ff8e69;
     background: var(--yellow);
-
+    color: var(--red);
 }
 
 button {
     background: var(--red);
     color: var(--yellow);
-
 }
-
-
-.featured{
-	--yellow:#ffe55b;
-	--red: #ff5564;
-}
-
-
-

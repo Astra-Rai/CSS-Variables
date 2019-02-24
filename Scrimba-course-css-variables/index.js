@@ -1,3 +1,26 @@
+/*
+Notes:
+
+
+
+
+-CSS variable live in the DOM meaning that you can update them within JavaScript
+-querySelector(): The Document Method that returns the first element within the 
+document that matches the specified selector or group of selectors
+-getComputerSyte()method returns the values and properties for the 
+elements we pass in
+-HTMLElement.style property is used to get as well as 
+set the inline style of an element
+-The CSSStyleDeclaration.setProperty()method interface 
+returns a DOM string containing the value of a specified CSS property
+
+
+
+
+*/
+
+
+
 
 
 //grab hold of hte rooot of where we declared CSS variables
